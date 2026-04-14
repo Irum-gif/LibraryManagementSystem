@@ -83,13 +83,13 @@ public class LibraryManagementSystem extends JFrame {
         buttonPanel.setBackground(Color.WHITE);
         buttonPanel.setBorder(BorderFactory.createEmptyBorder(50, 50, 50, 50)); // 上下左右各50像素的空白边距
 
-        JButton readerButton = new JButton("读者管理");
-        JButton searchButton = new JButton("图书搜索与借还");
-        JButton manageButton = new JButton("图书管理");
+        JButton readerButton = new JButton("lcf");
+        JButton searchButton = new JButton("lcf");
+        JButton manageButton = new JButton("lcf");
 
-        readerButton.setFont(new Font("微软雅黑", Font.PLAIN, 18));
-        searchButton.setFont(new Font("微软雅黑", Font.PLAIN, 18));
-        manageButton.setFont(new Font("微软雅黑", Font.PLAIN, 18));
+        readerButton.setFont(new Font("lcf", Font.PLAIN, 18));
+        searchButton.setFont(new Font("lcf", Font.PLAIN, 18));
+        manageButton.setFont(new Font("lcf", Font.PLAIN, 18));
 
         readerButton.addActionListener(e -> showPanel(readerManagementPanel));
         searchButton.addActionListener(e -> showPanel(bookSearchAndBorrowPanel));
